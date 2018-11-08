@@ -23,7 +23,7 @@ class Document: UIDocument {
         if let fileType = typeName {
             
             // #4.2 - I only support .PNG and .JPG type image files.
-            if fileType == "public.png" || fileType == "public.jpeg"  { // .jpg not recognized
+            if fileType == "public.png" || fileType == "public.jpeg" || fileType == "public.jpg"  { 
                 
                 // #4.3 - If reading was successful, store
                 // the binary data into the document model.
